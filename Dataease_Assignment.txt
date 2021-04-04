@@ -1,0 +1,5 @@
+1)How many startups are there in Pune City?
+
+solution:
+
+sqlContext.sql("""SELECT count(*) FROM startup """)
